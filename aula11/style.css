@@ -1,0 +1,9 @@
+div { 
+    background-color: rgb(84, 166, 198);
+    width: 30px; 
+    height: 400px;
+    border-style: dotted;
+    margin: 5px, 8px, 5 px, 8px;
+    padding: 6px, 9px, 6px, 6px;
+    overflow: visible;
+}
