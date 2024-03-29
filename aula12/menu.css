@@ -1,0 +1,21 @@
+.menu {list-style: none;
+    padding:0%;
+}
+
+.menu__item {
+    display: inline-block;
+    width: 60px;
+}
+
+.submenu {
+    position: absolute;
+    background-color: blueviolet;
+    width: 200px;
+    display: none;
+    padding: 0;
+
+}
+
+.com-submenu:hover .submenu {
+    display: block;
+}
