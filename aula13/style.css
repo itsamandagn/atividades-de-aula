@@ -1,0 +1,39 @@
+div {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+div:hover {
+    background-color: rgb(128, 0, 128);
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(202, 32, 120);
+    font-size: 32px;
+}
+
+li:first-child {
+color: green
+}
+
+li:last-child {
+    color: red;
+}
+
+.primeira-letra::first-letter {
+    color: red;
+    font-size: 36px;
+}
+
+.paragrafo::first-line {
+    color: orange
+}
+
+.paragrafo::selection {
+    color: rgba(171, 171, 245, 0.975);
+}
