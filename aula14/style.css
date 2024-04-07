@@ -1,0 +1,81 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.testando-gradiente1 {
+    background-image: linear-gradient(to right, red,purple);
+}
+
+.testando-gradiente2 {
+    background-image: linear-gradient(to bottom, black, orange,yellow);
+}
+
+.testando-translate {
+    background-color: red;
+    transform: translate(20px,30px)
+}
+
+.testando-rotate {
+    background-color: purple;
+    transform: rotate(45deg);
+}
+
+.teste-seta {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height: 40px;
+    width: 40px;
+
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    transform: rotate(45deg);
+    transition: transform 1s;
+
+    }
+
+    .teste-seta:hover{
+        transform: rotate(-135deg);
+    }
+
+    .transition {
+        cursor: pointer;
+        background-color: rgb(131, 214, 247);
+        border: solid 1px;
+        transition: width 1s;
+    }
+
+    .transition:hover{
+        background-color: green;
+        width: 200px;
+    }
+
+img{
+    width: 300px;
+    height: 300px;
+    transition: 1s;
+}
+img:hover {
+    width: 500px;
+    height: 500px;
+}
+
+.animation-branca {
+    border: solid 2px;
+    position:fixed;
+    z-index: -1;
+}
+.animation-colorida {
+    position: fixed;
+    background-color: orange;
+    border: solid 2px;
+    animation-name:quadrado;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes quadrado {
+    50% {
+        transform: skew(10deg,20deg);
+    }
