@@ -1,0 +1,35 @@
+* {
+    margin: 0%;
+}
+
+div {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 100px 1fr 50px;
+    grid-template-areas: 
+    "header header header"
+    " nav conteudo1 conteudo1"
+    " footer footer footer"
+}
+header {
+    background-color: red;
+    grid-area: header;
+
+}
+
+nav {
+    background-color: yellow;
+    grid-area: nav;
+}
+
+#section1 {
+    background-color: aqua;
+    grid-area: conteudo1;
+}
+
+
+footer {
+    background-color: orange;
+    grid-area: footer;
+}
