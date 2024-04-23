@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: blueviolet;
+    grid-area: header ;
+
+}
+main {
+    background-color: palevioletred;
+    grid-area:main ;
+
+}
+.principal {
+    background-color: greenyellow;
+    grid-area: principal;
+
+}
+.secundaria {
+    background-color: red;
+    grid-area: secundaria;
+}
+
+
+.primeira {
+    background-color: beige;
+    grid-area: primeira ;
+
+}
+.segunda {
+    background-color: brown;
+    grid-area: segunda ;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: repeat(3,1fr) ;
+    gap: 10px;
+   grid-template-areas: 
+   "main main header header header"
+   "main main principal principal primeira"
+   "secundaria secundaria principal principal segunda"
+    
+    ;
+}
